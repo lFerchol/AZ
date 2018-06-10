@@ -113,6 +113,7 @@ public class Celular extends javax.swing.JFrame {
         }
     }
     public void Ejercicio_Correcto(){
+        reproducirsonido("sonidos/correcto.mp3");
         System.out.println("Correcto");
         JOptionPane.showMessageDialog(null,"Correctó\nOración\n"+F_correcta);
         puntos++;
